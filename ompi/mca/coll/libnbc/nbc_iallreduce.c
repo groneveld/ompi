@@ -131,7 +131,7 @@ static int nbc_allreduce_init(const void* sendbuf, void* recvbuf, int count, MPI
       alg = NBC_ARED_RDBL;
     } else
       alg = NBC_ARED_RING;
-  }*/
+  }
 #ifdef NBC_CACHE_SCHEDULE
   /* search schedule in communicator specific tree */
   search.sendbuf = sendbuf;
